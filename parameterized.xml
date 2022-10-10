@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+<parameter name = "url" value = "https://boratech.herokuapp.com/"/>
+<parameter name = "browser" value = "chrome"/>
+<parameter name = "googleUrl" value = "https://www.google.com/"/>
+	
+
+
+
+  <test thread-count="2" name="Test" parallel = "tests">
+	
+	<groups>
+
+<run>
+
+<include name = "google"/>
+<include name = "heroku"/>
+
+
+</run>
+
+</groups>
+	  
+  	<classes>
+  	
+  	<class name = "testNG.Parameterization"/>
+  	
+  	</classes>
+  
+  
+  
+  </test> 
+</suite>

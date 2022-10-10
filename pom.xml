@@ -19,12 +19,12 @@
         <version>3.0.0-M7</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>parameterized.xml</suiteXmlFile>
+            <suiteXmlFile>${testng.xml}</suiteXmlFile>
           </suiteXmlFiles>
           
-            <systemPropertyVariables>
+            <!-- <systemPropertyVariables>
           <browser>${Browser}</browser>
-          </systemPropertyVariables>
+          </systemPropertyVariables> -->
           
         </configuration>
       </plugin>

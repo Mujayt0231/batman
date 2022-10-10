@@ -10,11 +10,11 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		
-		features = {"src/test/resources/Features/Checkout.feature", "src/test/resources/Features/Login.feature"},
-		glue = {"testSteps"},
+		features = {"src/test/resources/Features/Login.feature"},
+		glue = {"testSteps","hooks"},
 		dryRun = false,
 		monochrome = true,
-		plugin = {"pretty", "html:reports/cucumberReport.html", "json:reports/cucumberReport.json", 
+		plugin = {"pretty", "html:reports/cucumberReport.html", 
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		
 		)

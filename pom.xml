@@ -21,6 +21,9 @@
           <suiteXmlFiles>
             <suiteXmlFile>parameterized.xml</suiteXmlFile>
           </suiteXmlFiles>
+              <systemPropertyVariables>
+          <Browser>${Browser}</Browser>
+          </systemPropertyVariables>
         </configuration>
       </plugin>
 </plugins>

@@ -1,0 +1,5 @@
+practiceSteps\GlobalSQA.class
+testNG\Parameterization.class
+testSteps\SignInSteps_store.class
+runners\TestRunner.class
+testSteps\CheckoutSteps_store.class

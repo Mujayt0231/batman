@@ -13,8 +13,10 @@ public class Parameterization {
 	
 	
 	@Test(groups = {"heroku"})
-	@Parameters({"url","browser"})
-	public void openHeroku(String url,String browser) {
+	@Parameters({"url","browser","Browser"})
+	public void openHeroku(String url,String browser,String Browser) {
+		
+		System.out.println("this is the parameterized browser ==> " + Browser);
 		
 		
 		if(browser.equalsIgnoreCase("chrome")) {

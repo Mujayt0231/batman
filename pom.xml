@@ -23,7 +23,7 @@
           </suiteXmlFiles>
           
             <systemPropertyVariables>
-          <Browser>${Browser}</Browser>
+          <browser>${Browser}</browser>
           </systemPropertyVariables>
           
         </configuration>

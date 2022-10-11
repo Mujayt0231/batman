@@ -36,6 +36,7 @@ public class SignInSteps_store {
 		wait.until(ExpectedConditions.urlToBe(expectedUrl));
 
 		Assert.assertEquals(currentUrl, expectedUrl);
+		
 
 	}
 

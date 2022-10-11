@@ -9,7 +9,6 @@ import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import resources.UIConstants;
 
 public class Hook {
 	

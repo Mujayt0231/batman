@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practiceSteps.GlobalSQA">
+      <class name="practiceSteps.Costco_Login">
         <methods>
-          <include name="logInTest"/>
+          <include name="LoginWithValidCred"/>
         </methods>
-      </class> <!-- practiceSteps.GlobalSQA -->
+      </class> <!-- practiceSteps.Costco_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

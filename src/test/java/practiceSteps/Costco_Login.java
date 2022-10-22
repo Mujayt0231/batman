@@ -21,13 +21,10 @@ public class Costco_Login {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
 		driver.get("https://www.costco.com/");
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		
-//		WebElement signIn_button  = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@id='header_sign_in']")));
 		WebElement signIn_button = waitForElementToPresent(By.xpath("//a[@id='header_sign_in']"), driver, 5);
 		signIn_button.click();
 		
-//		WebElement emailAddress_inputBox = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='signInName']")));
 		WebElement emailAddress_inputBox = waitForElementToPresent(By.xpath("//input[@id='signInName']"), driver, 5);
 		emailAddress_inputBox.sendKeys("Mujiayitiabdu@gmail.com");
 		
@@ -40,6 +37,8 @@ public class Costco_Login {
 		driver.close();
 		
 	}
+	
+	@Test
 	
 	
 	

@@ -20,18 +20,15 @@ public class SignInSteps_store {
 	@Given("user is on home page")
 	public void user_is_on_home_page() throws Exception {
 
-//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
-//		driver = new ChromeDriver();
 		driver = WebDriverFactory.getDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
+		
 		driver.get("http://automationpractice.com/index.php");
-
+		
 		String currentUrl = driver.getCurrentUrl();
 		String expectedUrl = "http://automationpractice.com/index.php";
-
 		wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.urlToBe(expectedUrl));
 
@@ -48,7 +45,6 @@ public class SignInSteps_store {
 	}
 	
 	
-
 	@Then("user navigated to sign in page")
 	public void user_navigated_to_sign_in_page() {
 

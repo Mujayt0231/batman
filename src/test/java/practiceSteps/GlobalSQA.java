@@ -38,13 +38,7 @@ public class GlobalSQA {
 		driver.quit();
 		
 		
-}
-	
-	
-	//batman@gmail.com
-	//Jose@gmail.com
-	
-	
+	}
 	
 	
 }

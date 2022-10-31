@@ -36,7 +36,6 @@ public class SignInSteps_store {
 		wait.until(ExpectedConditions.urlToBe(expectedUrl));
 
 		Assert.assertEquals(currentUrl, expectedUrl);
-		
 
 	}
 
@@ -46,8 +45,6 @@ public class SignInSteps_store {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='login']")));
 		PageObject.getHomePage().loginButton();
 	}
-	
-	
 
 	@Then("user navigated to sign in page")
 	public void user_navigated_to_sign_in_page() {

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-18T18:39:54 EDT" name="Default suite" finished-at="2022-10-18T18:40:11 EDT" duration-ms="17483">
+  <suite started-at="2022-10-23T18:10:21 EDT" name="Default suite" finished-at="2022-10-23T18:10:21 EDT" duration-ms="53">
     <groups>
     </groups>
-    <test started-at="2022-10-18T18:39:54 EDT" name="Default test" finished-at="2022-10-18T18:40:11 EDT" duration-ms="17483">
-      <class name="practiceSteps.Costco_Login">
-        <test-method signature="LoginWithValidCred()[pri:0, instance:practiceSteps.Costco_Login@25ce9dc4]" started-at="2022-10-18T18:39:54 EDT" name="LoginWithValidCred" finished-at="2022-10-18T18:40:11 EDT" duration-ms="17423" status="PASS">
+    <test started-at="2022-10-23T18:10:21 EDT" name="Default test" finished-at="2022-10-23T18:10:21 EDT" duration-ms="53">
+      <class name="testNG.SwappingVariables">
+        <test-method signature="revArr()[pri:0, instance:testNG.SwappingVariables@f78a47e]" started-at="2022-10-23T18:10:21 EDT" name="revArr" finished-at="2022-10-23T18:10:21 EDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginWithValidCred -->
-      </class> <!-- practiceSteps.Costco_Login -->
+        </test-method> <!-- revArr -->
+      </class> <!-- testNG.SwappingVariables -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

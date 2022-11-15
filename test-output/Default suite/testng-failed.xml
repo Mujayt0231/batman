@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practiceSteps.Costco_Login">
+      <class name="practiceSteps.AAPC_HomePage">
         <methods>
-          <include name="LoginWithValidCred"/>
+          <include name="checkCulture"/>
+          <include name="initializingTheSystem"/>
         </methods>
-      </class> <!-- practiceSteps.Costco_Login -->
+      </class> <!-- practiceSteps.AAPC_HomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

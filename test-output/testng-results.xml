@@ -2,46 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-02T15:47:04 EDT" name="Default suite" finished-at="2022-11-02T15:47:19 EDT" duration-ms="15237">
+  <suite started-at="2022-11-15T15:42:48 EST" name="Default suite" finished-at="2022-11-15T15:42:54 EST" duration-ms="6068">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@71075444]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-11-02T15:47:04 EDT" name="Default test" finished-at="2022-11-02T15:47:19 EDT" duration-ms="15237">
-      <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@71075444]" started-at="2022-11-02T15:47:04 EDT" name="setUpClass" finished-at="2022-11-02T15:47:04 EDT" duration-ms="832" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@7b451bf4]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-11-15T15:42:48 EST" name="Default test" finished-at="2022-11-15T15:42:54 EST" duration-ms="6068">
+      <class name="practiceSteps.AAPC_HomePage">
+        <test-method is-config="true" signature="initializingTheSystem()[pri:0, instance:practiceSteps.AAPC_HomePage@35841320]" started-at="2022-11-15T15:42:48 EST" name="initializingTheSystem" finished-at="2022-11-15T15:42:48 EST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@71075444]" started-at="2022-11-02T15:47:04 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-02T15:47:18 EDT" duration-ms="13992" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Sign in with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Sign in"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- initializingTheSystem -->
+        <test-method signature="checkCulture()[pri:0, instance:practiceSteps.AAPC_HomePage@35841320]" started-at="2022-11-15T15:42:48 EST" name="checkCulture" finished-at="2022-11-15T15:42:54 EST" duration-ms="6002" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@71075444]" started-at="2022-11-02T15:47:18 EDT" name="tearDownClass" finished-at="2022-11-02T15:47:19 EDT" duration-ms="356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runners.TestRunner -->
+        </test-method> <!-- checkCulture -->
+      </class> <!-- practiceSteps.AAPC_HomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

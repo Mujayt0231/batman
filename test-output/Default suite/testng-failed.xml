@@ -5,7 +5,7 @@
     <classes>
       <class name="practiceSteps.AAPC_HomePage">
         <methods>
-          <include name="checkCulture"/>
+          <include name="checkResources"/>
           <include name="initializingTheSystem"/>
         </methods>
       </class> <!-- practiceSteps.AAPC_HomePage -->
